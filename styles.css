@@ -69,9 +69,7 @@ a:hover { color:#000; }
 
 #shadowBox {
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: #FFFFFF;
-    /* Black w/opacity/see-through */
 }
 
 .description {
@@ -182,4 +180,23 @@ iframe {
     top:0;
     left: 0;
     vertical-align: top;
+}
+.chart-container {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.image-row a img {
+    max-width: 135px;
+    height: auto;
+    display: inline-block;
+	border-radius:10px;
 }
