@@ -78,6 +78,7 @@ nav ul {
 
 nav li {
     margin: 0 10px;
+	max-width: 100%
 }
 
 nav a {
@@ -111,19 +112,21 @@ a:hover { color:#000; }
 
 @media (max-width: 1200px) {
 	.rainbow {
-		font-size:32px;
+		font-size: 32px;
 	}
 }
 
 @media (max-width: 768px) {
 	.rainbow {
-		font-size:20px;
+		font-size: 20px;
+		letter-spacing: 3px;
 	}
 }
 
 @media (max-width: 480px) {
-	.container {
-		font-size:13px;
+	.rainbow {
+		font-size: 13px;
+		letter-spacing: 2px;
 	}
 }
 
