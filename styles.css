@@ -91,7 +91,7 @@ nav {
 }
 
 nav ul {
-    flex: 1;
+    flex: 0;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -288,12 +288,12 @@ iframe {
 
 @media (max-width: 768px) {
 	.image-row a img {
-		max-width: 90px
+		width: 90px
 	}
 }
 
 @media (max-width: 480px) {
 	.image-row a img {
-		max-width: 55px;
+		width: 55px;
 	}
 }
