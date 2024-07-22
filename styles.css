@@ -101,6 +101,12 @@ nav ul {
     display: inline-block;
 }
 
+@media (max-width: 1200px) {
+	.nav ul {
+		flex: 1
+	}
+}
+
 @media (max-width: 768px) {
 	.nav ul {
 		flex: 0 20px
@@ -294,7 +300,7 @@ iframe {
 
 @media (max-width: 1200px) {
 	.image-row a img {
-		width: 135px
+		width: 1350px
 	}
 }
 
