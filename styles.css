@@ -13,6 +13,23 @@ body {
     height: 100vh;
 }
 
+@media (max-width: 1200px) {
+	.container {
+		max-width: 1200px'
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container {
+		max-width: 480px;
+	}
+}
 header {
     padding: 20px;
     background-color: #FFFFFF;
@@ -74,7 +91,7 @@ a:hover { color:#000; }
 
 .description {
     text-align: center;
-    font-size: 22vw;
+    font-size: 22px;
     font-family: monospace;
     letter-spacing: 5px;
 }
@@ -82,7 +99,7 @@ a:hover { color:#000; }
 .rainbow {
     text-align: center;
     text-decoration: underline;
-    font-size: 32vw;
+    font-size: 32px;
     font-family: monospace;
     letter-spacing: 5px;
 }
