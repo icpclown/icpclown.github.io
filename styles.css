@@ -129,12 +129,16 @@ a:hover { color:#000; }
 @media (max-width: 768px) {
 	.description {
 	font-size: 18px;
+	letter-spacing: 3px;
+	width: 80%
 	}
 }
 
 @media (max-width: 480px) {
 	.description {
 	font-size: 16px;
+	letter-spacing: 2px;
+	width: 80%
 	}
 }
 
@@ -280,4 +284,16 @@ iframe {
     	height: auto;
 	display: inline-block;
 	border-radius:10px;
+}
+
+@media (max-width: 768px) {
+	.image-row a img {
+		max-width: 90px
+	}
+}
+
+@media (max-width: 480px) {
+	.image-row a img {
+		max-width: 55px;
+	}
 }
