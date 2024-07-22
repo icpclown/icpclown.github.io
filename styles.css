@@ -292,10 +292,16 @@ iframe {
 }
 
 .image-row a img {
-	max-width: 1350px;
+	max-width: 270px;
     	height: auto;
 	display: inline-block;
 	border-radius:10px;
+}
+
+@media (max-width: 1200px) {
+	.image-row a img {
+		width:: 250px
+	}
 }
 
 @media (max-width: 768px) {
