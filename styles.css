@@ -84,6 +84,13 @@ nav {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+	.nav {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
 nav ul {
     flex: 1;
     flex-direction: column;
@@ -97,18 +104,6 @@ nav ul {
 
 nav li {
     margin: 0 10px;
-}
-
-@media (max-width: 768px) {
-	.nav li {
-		flex: 1 1 60%;
-	}
-}
-
-@media (max-width: 480px) {
-	.nav li {
-		flex: 1 1 45%;
-	}
 }
 
 nav a {
@@ -131,6 +126,16 @@ a:hover { color:#000; }
     font-family: monospace;
     letter-spacing: 5px;
 }
+
+@media (max-width: 768px) {
+	.description {
+font-size: 18px
+	}
+}
+
+@media (max-width: 480px) {
+	.description {
+		font-size: 16px
 
 .rainbow {
     text-align: center;
