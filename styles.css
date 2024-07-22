@@ -57,6 +57,26 @@ section {
     position: relative;
 }
 
+@media (max-width: 1200px) {
+	#logo {
+		max-width: 1200px;
+	}
+}
+
+@media (max-width: 768px) {
+	#logo {
+		max-width: 768px;
+		width: 80%
+	}
+}
+
+@media (max-width: 480px) {
+	#logo {
+		max-width: 480px;
+		width: 80%
+	}
+}
+
 nav {
     text-align: center;
     display: flex;
@@ -64,24 +84,6 @@ nav {
     color: #fff;
     padding: 10px;
     width: 100%;
-}
-
-@media (max-width: 1200px) {
-	.nav {
-		max-width: 1200px;
-	}
-}
-
-@media (max-width: 768px) {
-	.nav {
-		width: 768px;
-	}
-}
-
-@media (max-width: 480px) {
-	.nav {
-		width: 480px;
-	}
 }
 
 nav ul {
@@ -97,6 +99,18 @@ nav ul {
 
 nav li {
     margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+	.nav ul {
+		flex: 1 1 60%;
+	}
+}
+
+@media (max-width: 480px) {
+	.nav ul {
+		flex: 1 1 45%;
+	}
 }
 
 nav a {
