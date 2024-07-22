@@ -294,7 +294,7 @@ iframe {
 .image-row a img {
 	max-width: 270px;
     	height: auto;
-	display: inline-block;
+	display: block;
 	border-radius:10px;
 }
 
