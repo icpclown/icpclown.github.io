@@ -91,7 +91,7 @@ nav {
 }
 
 nav ul {
-    flex: 0;
+    flex: 1;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -99,6 +99,12 @@ nav ul {
     margin: 0;
     padding: 0;
     display: inline-block;
+}
+
+@media (max-width: 768px) {
+	.nav ul {
+		flex: 0 20px
+	}
 }
 
 nav li {
@@ -284,6 +290,12 @@ iframe {
     	height: auto;
 	display: inline-block;
 	border-radius:10px;
+}
+
+@media (max-width: 1200px) {
+	.image-row a img {
+		width: 135px
+	}
 }
 
 @media (max-width: 768px) {
